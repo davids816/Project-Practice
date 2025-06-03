@@ -100,3 +100,68 @@ h2{
     text-align: center;
     border-bottom: -350px;
 }
+
+.glow-nav {
+ background-color: #333;
+ border-radius: 8px;
+ box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+ padding: 10px 20px;
+}
+
+
+.glow-nav ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ display: flex;
+}
+
+
+.glow-nav ul li {
+ margin: 0 10px;
+ padding: 5px;
+}
+
+
+.glow-nav ul li a {
+ color: #fff;
+ padding: 5px;
+ text-decoration: none;
+ transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.glow-nav ul li a:hover {
+ color: #0ff;
+ box-shadow: 0 0 8px 4px #0ff;
+}
+
+p{
+  color: #fff;
+  text-align: center;
+}
+
+.glowing-border {
+ padding: 20px 40px;
+ font-size: 2rem;
+ color: #9a4545;
+ border: 5px solid;
+ border-radius: 10px;
+ border-color: #ff00ff;
+
+
+ animation: glow-border 2s infinite alternate;
+}
+
+
+@keyframes glow-border {
+ 0% {
+   border-color: #ff00ff;
+ }
+ 50% {
+   border-color: #00ffff;
+ }
+ 100% {
+   border-color: #ff00ff;
+ }
+}
