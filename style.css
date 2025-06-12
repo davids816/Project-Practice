@@ -138,8 +138,14 @@ h2{
 p{
   color: #fff;
   text-align: center;
+   font-family: 'Dosis', sans-serif;
+  
 }
-
+h3{
+  color: #fff;
+  text-align: center;
+   font-family: 'Dosis', sans-serif;
+}
 .glowing-border {
  padding: 20px 40px;
  font-size: 2rem;
